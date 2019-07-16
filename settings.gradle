@@ -1,0 +1,3 @@
+include ':webservice'
+include ':kotlinapp'
+rootProject.name = 'statistics'

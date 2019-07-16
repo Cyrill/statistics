@@ -1,0 +1,6 @@
+apply plugin: 'application'
+mainClassName = "io.ktor.server.netty.EngineMain"
+
+dependencies {
+    implementation project(":webservice")
+}
